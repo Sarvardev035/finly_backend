@@ -1,0 +1,95 @@
+:host, :root {
+    --admin-sidebar-bg: #263238;
+    --admin-sidebar-text: #b0bec5;
+    --admin-sidebar-active: #ffffff;
+    --admin-header-bg: #1a237e;
+    --admin-header-text: #ffffff;
+    --admin-content-bg: #f5f5f5;
+    --admin-card-bg: #ffffff;
+}
+
+.admin-shell {
+    background-color: var(--admin-content-bg);
+}
+
+.admin-header {
+    background-color: var(--admin-header-bg);
+    color: var(--admin-header-text);
+    padding: 0 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.admin-drawer {
+    background-color: var(--admin-sidebar-bg);
+    color: var(--admin-sidebar-text);
+    height: 100%;
+}
+
+.admin-logo {
+    display: block;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.admin-sidenav {
+    padding: 1rem 0;
+}
+
+.admin-sidenav vaadin-side-nav-item {
+    color: var(--admin-sidebar-text);
+}
+
+.admin-sidenav vaadin-side-nav-item[active] {
+    color: var(--admin-sidebar-active);
+    background-color: rgba(255,255,255,0.05);
+}
+
+.admin-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.admin-breadcrumb {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.admin-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+.admin-grid {
+    border: none;
+    border-radius: 4px;
+    background: white;
+}
+
+.admin-grid [part~="header-cell"] {
+    background-color: #fcfcfc;
+    color: #333;
+    font-weight: 600;
+}
+
+.admin-logout {
+    color: white !important;
+}
+
+.admin-global-search input {
+    background: rgba(255,255,255,0.1) !important;
+    color: white !important;
+    border: none !important;
+}

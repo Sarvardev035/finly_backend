@@ -1,0 +1,18 @@
+{
+  "productionMode": false,
+  "eagerServerLoad": false,
+  "npmFolder": "/home/sarvarbek/Desktop/finly_backend",
+  "node.version": "v20.15.0",
+  "node.download.root": "https://nodejs.org/dist/",
+  "frontendFolder": "/home/sarvarbek/Desktop/finly_backend/./frontend",
+  "connect.javaSourceFolder": "/home/sarvarbek/Desktop/finly_backend/src/main/java",
+  "javaResourceFolder": "/home/sarvarbek/Desktop/finly_backend/src/main/resources",
+  "connect.applicationProperties": "/home/sarvarbek/Desktop/finly_backend/src/main/resources/application.properties",
+  "connect.openApiFile": "/home/sarvarbek/Desktop/finly_backend/target/generated-resources/openapi.json",
+  "project.frontend.generated": "/home/sarvarbek/Desktop/finly_backend/./frontend/generated",
+  "pnpm.enable": false,
+  "bun.enable": false,
+  "require.home.node": false,
+  "build.folder": "target",
+  "react.enable": true
+}

@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/home/sarvarbek/Desktop/finly_backend/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/home/sarvarbek/Desktop/finly_backend/./frontend/generated/jar-resources",
+  "staticOutput": "/home/sarvarbek/Desktop/finly_backend/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/home/sarvarbek/Desktop/finly_backend/target/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/home/sarvarbek/Desktop/finly_backend/target/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/home/sarvarbek/Desktop/finly_backend/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "/home/sarvarbek/Desktop/finly_backend/target/dev-bundle/config",
+  "jarResourcesFolder": "/home/sarvarbek/Desktop/finly_backend/./frontend/generated/jar-resources",
+  "themeName": "finly-admin",
+  "clientServiceWorkerSource": "/home/sarvarbek/Desktop/finly_backend/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
